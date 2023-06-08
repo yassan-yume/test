@@ -1,0 +1,31 @@
+
+.btn-oya {
+    width: 230px;
+    height: 50px;
+    position: relative;
+    margin: 25px auto;
+  }
+  
+  .btn--more {
+    border-radius: 30px;
+    background-color: #7633a4;
+    text-decoration: none;
+    color: white;
+    font-family: "Font Awesome 5 Free";
+    margin: 15px auto;
+    padding: 20px 80px;
+    background: linear-gradient(to right, #7633a4, #250d65);
+  
+    &:after {
+      content: "▶︎";
+  
+      /* right: 50px; */
+      /* padding-left: 20px; */
+      /* margin-left: 30px; */
+      position: absolute;
+      top: 0;
+  
+      /* bottom:50%; */
+      right: 20px;
+    }
+  }

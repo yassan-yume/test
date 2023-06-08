@@ -1,0 +1,30 @@
+header {
+    width: auto;
+    height: auto;
+    background: url(../image/top-bg.png) right no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .header {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    font-family: "Montserrat",Arial, "Hiragino Kaku Gothic ProN","Hiragino Sans", Meiryo,sans-serif;
+    display: flex;
+    padding: 15px 15px;
+    justify-content: space-between;
+    padding: 1.4em;
+  }
+  
+
+.menu {
+  display: flex;
+  align-items: flex-end;
+}
+
+.menu02, .menu03, .menu04 {
+  margin-left: 25px;
+}
+

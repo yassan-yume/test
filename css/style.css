@@ -639,8 +639,11 @@ nav {
 }
 
 .news-list .item .title {
+  color: black;
   margin: 0;
   width: 100%;
+  text-align: left;
+  font-weight: normal;
 }
 
 .news-list .item .category span {
@@ -1941,6 +1944,7 @@ p {
   margin: 0 50px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
   /* margin: 32px; */
 }
 
